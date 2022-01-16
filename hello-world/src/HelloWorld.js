@@ -2,8 +2,8 @@
 import { html, css, LitElement } from 'lit';
 
 /**
- * I don't know what the export is doing but here we are creating a class that
- * would inherit all of the properties and attributes from the LitElement base class.
+ * Creating a class that would inherit all of the 
+ * properties and attributes from the LitElement base class.
  */
 export class HelloWorld extends LitElement {
   // receives input and store their states as properties. Allows the properties to  update when change.
